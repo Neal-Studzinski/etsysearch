@@ -1,0 +1,20 @@
+
+	button {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: blue;
+		border: solid 1px #0076a3; border-right:0px;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	}
+
+	.clear{
+		clear:both;
+	}
