@@ -5,7 +5,7 @@ var searchQuery;
 
 $(formElement).on('submit', function(e) {
   e.preventDefault()
-  var searchQuery = $('.search-query').val();
+  searchQuery = $('.search-query').val();
 
   ;
 
@@ -18,12 +18,12 @@ var settings =    {
           results.forEach(function(item, i, arr){
             var images = item.Images[0].url_170x135;
             var shop = item.Shop.shop_name;
-
+})
             var test = $('<div class="card"><div class="image-container"><img src="'+ images +'"></div><p class="title">'+item.title+'</p><p><span class="shop">'+ shop +'</span><span class="price">$'+item.price+'</span></p></div>');
             $('.contentDisplay').append(test);
-  })
-}
-};
+  }
+
+
 
 
 //jQueryElement.on('nameOfEvent', function(e) {
